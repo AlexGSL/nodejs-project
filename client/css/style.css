@@ -1,0 +1,22 @@
+img{width: 100%;}
+
+/*
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 30%;
+  width: 50%;
+}
+
+.col-height {
+	display: table-cell;
+	float: none;
+	height: 80%;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}*/
