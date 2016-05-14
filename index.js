@@ -4,7 +4,8 @@ var bodyParser = require('body-parser');
 var mongoose =  require('mongoose');
 
 
-app.use(express.static(__dirname+'/client'));
+app.use('/', express.static(__dirname+'/client'));
+app.use('/bower_components', express.static(__dirname+'/client'));
 app.use(bodyParser.json());
 
 Book = require('./models/book');
