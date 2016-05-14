@@ -2,8 +2,7 @@
   "name": "bookstore",
   "version": "1.0.0",
   "description": "project",
-  // "main": "index.js",
-  "main": "hola.js",
+   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
