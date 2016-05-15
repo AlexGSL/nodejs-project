@@ -12,7 +12,7 @@ User = require('./models/user');
 Genre = require('./models/genre');
 
 // Conectar a mongoose
-mongoose.connect('mongodb://localhost/bookstore', function(err, res){
+mongoose.connect(process.env.DB_URL || 'mongodb://localhost/bookstore', function(err, res){
 	if(err){
 		console.log("error con la conexion a la base de datos");
 	}else{
